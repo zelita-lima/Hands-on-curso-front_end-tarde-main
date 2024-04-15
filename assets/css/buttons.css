@@ -6,12 +6,14 @@ btn
 .btn.btn-laranja
 {
     display: block;
-    margin: 0 1px;
+    margin: 10;
+    padding: 50px;
     text-decoration: none;
     color: #fff;
     background-color: #ffb36b; /* Laranja */
     transition: background-color 0.3s;
     border-radius: 15px; /* Arredonda as bordas */
+    box-shadow: 0 10px 1px rgba(0,0,0,0.5);
 }
 .btn.btn-laranja:hover {
     background-color: #ff6347; /* Laranja mais escuro */
