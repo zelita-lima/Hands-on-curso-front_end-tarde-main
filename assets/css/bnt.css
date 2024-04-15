@@ -1,0 +1,19 @@
+btn
+{
+    padding: 5px 20px;
+}
+
+.btn.btn-laranja
+{
+    display: block;
+    margin: 0 1px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #ffb36b; /* Laranja */
+    transition: background-color 0.3s;
+    border-radius: 15px; /* Arredonda as bordas */
+}
+.btn.btn-laranja:hover {
+    background-color: #ff6347; /* Laranja mais escuro */
+    
+}

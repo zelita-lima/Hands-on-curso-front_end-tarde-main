@@ -1,0 +1,40 @@
+@media(max-width:1150px)
+{
+    .container
+    {
+        width: 950px;
+    }
+}
+@media(max-width:1024px)
+{
+    .container
+    {
+        width: 850px;
+    }
+
+    .sobre-web-design figcaption img
+    {
+        width: 700px;
+    }
+}   
+@media(max-width:915px)
+{
+    .container
+    {
+        width: 600px;
+    }
+    .row
+    {
+        flex-direction: column;
+    }
+    header nav
+    {
+        margin: auto;
+    }
+    footer .row
+    {
+      flex-direction: row;
+    }
+
+   
+}
