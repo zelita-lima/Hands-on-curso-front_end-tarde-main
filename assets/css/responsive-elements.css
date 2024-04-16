@@ -51,6 +51,10 @@
         {
             width: 450px;
         }
+        header nav ul
+        {
+            flex-direction: column;
+        }
     }
     @media (max-width:450px)
     {
